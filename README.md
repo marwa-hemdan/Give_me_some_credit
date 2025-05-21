@@ -42,7 +42,7 @@ NumberOfDependents: Number of dependents the individual has
 
 Clean and prepare the dataset using BigQuery SQL:
 using some function to clean the data 
-## 1-COALESCE(MonthlyIncome, median_income_by_age_group) AS MonthlyIncome## 
+**1-COALESCE(MonthlyIncome, median_income_by_age_group) AS MonthlyIncome**
 
 I used this function to replace the MonthelyIncome **NULL** values by median income by age group.
 
